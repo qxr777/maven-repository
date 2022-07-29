@@ -225,15 +225,15 @@
                     <!-- 配置本地打包后的本地仓库存储地址，后续上传jar包会从此仓库中去取 -->
                     <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/maven-repository</altDeploymentRepository>
                 </configuration>
-              <executions>
-                <execution>
-                  <id>deploy</id>
-                  <phase>deploy</phase>
-                  <goals>
-                    <goal>deploy</goal>
-                  </goals>
-                </execution>
-              </executions>
+<!--              <executions>-->
+<!--                <execution>-->
+<!--                  <id>deploy</id>-->
+<!--                  <phase>deploy</phase>-->
+<!--                  <goals>-->
+<!--                    <goal>deploy</goal>-->
+<!--                  </goals>-->
+<!--                </execution>-->
+<!--              </executions>-->
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
